@@ -1,0 +1,43 @@
+Checkpoint :/DATA1/zhangzs/partComSpoof/BAM-master/models/model.ckpt 
+EER :3.7799061509736984% 
+F1 :0.9603108050353805 
+Precision :0.9390186400636484 
+Recall :0.98259096872239 
+Test log :exp/bam_wavlm/test/lightning_logs/version_0 
+
+Checkpoint :/DATA1/zhangzs/partComSpoof/BAM-master/models/model.ckpt 
+EER :33.65540439385529% 
+F1 :0.6068991694698361 
+Precision :0.9856272738421289 
+Recall :0.4384314991922855 
+Test log :exp/bam_wavlm/test/lightning_logs/version_21 
+
+Checkpoint :/dkucc/home/zz324/partComSpoof/BAM-master/exp/bam_multihead/train/lightning_logs/version_7/checkpoints/2-3.09853.ckpt 
+EER :47.5% 
+F1 :0.078125 
+Precision :0.625 
+Recall :0.041666666666666664 
+Test log :exp/bam_multihead/test/lightning_logs/version_0 
+
+Checkpoint :/dkucc/home/zz324/partComSpoof/BAM-master/exp/bam_multihead/train/lightning_logs/version_7/checkpoints/2-3.09853.ckpt 
+Frame-level mix EER :47.5% 
+Frame-level mix F1 :0.078125 
+Frame-level mix Precision :0.625 
+Frame-level mix Recall :0.041666666666666664 
+Test log :exp/bam_multihead/test/lightning_logs/version_1 
+
+Utter-level mix EER :nan% 
+Utter-level speech EER :nan% 
+Utter-level env EER :nan% 
+
+Checkpoint :/dkucc/home/zz324/partComSpoof/BAM-master/exp/bam_multihead/train/lightning_logs/version_7/checkpoints/2-3.09853.ckpt 
+Frame-level mix EER :54.16354088522131% 
+Frame-level mix F1 :0.05128205128205128 
+Frame-level mix Precision :0.125 
+Frame-level mix Recall :0.03225806451612903 
+Test log :exp/bam_multihead/test/lightning_logs/version_2 
+
+Utter-level mix EER :91.66666666666667% 
+Utter-level speech EER :50.0% 
+Utter-level env EER :58.33333333333333% 
+

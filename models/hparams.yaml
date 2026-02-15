@@ -1,0 +1,35 @@
+args: !!python/object:argparse.Namespace
+  base_lr: 1.0e-05
+  batch_size: 8
+  checkpoint: exp/bam_wavlm/train/lightning_logs/version_5/checkpoints/19-0.00917.ckpt
+  continue_train: false
+  dataset: dataset.partialspoof.PartialSpoofDataModule
+  dev_root: data/raw/dev
+  eval_root: data/raw/eval
+  exp_name: bam_wavlm
+  gpu:
+  - 0
+  - 1
+  input_maxlength: null
+  input_minlength: null
+  label_maxlength: 25
+  label_root: ./data
+  max_epochs: 100
+  model: models.bam.BAM
+  num_workers: 8
+  pad_mode: label
+  resolution: 0.16
+  samplerate: 16000
+  test_only: false
+  train_root: data/raw/train
+  validate_interval: 1
+  weight_decay: 1.0e-06
+config: !!python/object:utils.tool.Attribution_Config
+  embed_dim: 1024
+  gap_head_num: 1
+  gap_layer_num: 2
+  local_channel_dim: 32
+  pool_head_num: 1
+  ssl_ckpt: /DATA1/zhangzs/partComSpoof/BAM-master/models/WavLM-Large.pt
+  ssl_feat_dim: 1024
+  ssl_name: wavlm_local

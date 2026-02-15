@@ -1,0 +1,10 @@
+
+ssl_ckpt: /public/home/qinxy/zhangzs/Partial_spoof/BAM-master/bam_checkpoint/WavLM-Large.pt
+ssl_name: wavlm_local
+ssl_feat_dim: 1024
+pool_head_num: 1
+local_channel_dim: 32
+embed_dim: 1024
+gap_head_num: 1
+gap_layer_num: 2
+

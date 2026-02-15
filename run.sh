@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=1 python train.py --test_only --checkpoint ./models/model.ckpt --eval_root /dkucc/home/zz324/partComSpoof/BAM-master/data/raw/eval
+python train.py --train_root ./data/raw/train --dev_root ./data/raw/dev
